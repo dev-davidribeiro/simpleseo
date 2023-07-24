@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_SIMPLE_SEO</name>
+	<author>DevQuanto</author>
+	<creationDate>April 2023</creationDate>
+	<!-- <copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright> -->
+	<!-- <license>GNU General Public License version 2 or later; see LICENSE.txt</license>; -->
+	<authorEmail>dev.davidribeiro05@gmail.com</authorEmail>
+	<authorUrl>https://devquanto.com.br</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_SIMPLE_SEO_DESCRIPTION</description>
+	<files>
+		<folder>language</folder>
+		<filename plugin="simpleseo">simpleseo.php</filename>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field 
+					name="default_img" 
+					type="media" 
+					directory="images" 
+					label="PLG_FIELDS_SIMPLE_SEO_PARAMS_DEFAULTIMG_LABEL"
+					description="PLG_FIELDS_SIMPLE_SEO_PARAMS_DEFAULTIMG_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_simpleseo.ini</language>
+		<language tag="en-GB">en-GB.plg_content_simpleseo.sys.ini</language>
+        <language tag="pt-BR">pt-BR.plg_content_simpleseo.ini</language>
+		<language tag="pt-BR">pt-BR.plg_content_simpleseo.sys.ini</language>
+	</languages>
+</extension>
